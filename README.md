@@ -149,7 +149,13 @@ CREATE TABLE `drd_bifrost` (
 Attention: You also need to fill drd_levels and drd_achievements tables with your data before to run the bot.
 
 ## Running the bot
-Being in a bot directory, run a command to start the bot:
+Being in a bot directory, run a command to start it:
 ```bash
 npm run bot.start
 ```
+
+I'm recommending to use the pm2 process management tool to automate bot start/restart process.
+
+Read more:
+https://discord.js.org/docs/packages/discord.js/main
+https://pm2.keymetrics.io/docs/usage/quick-start/
