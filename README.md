@@ -38,7 +38,7 @@ Create a config.json file in a directory that contains the following configurati
         "roleid": "Your bifrost role_id here"
     },
     "ui": {
-        "icon_url": "Your bot icno URL here",
+        "icon_url": "Your bot icon URL here",
         "title":    "Your server or bot title here"
     }
 }
@@ -149,7 +149,13 @@ CREATE TABLE `drd_bifrost` (
 Attention: You also need to fill drd_levels and drd_achievements tables with your data before to run the bot.
 
 ## Running the bot
-Being in a bot directory, run a command to start the bot:
+Being in a bot directory, run a command to start it:
 ```bash
 npm run bot.start
 ```
+
+I'm recommending to use the pm2 process management tool to automate bot start/restart process.
+
+Read more:
+https://discord.js.org/docs/packages/discord.js/main
+https://pm2.keymetrics.io/docs/usage/quick-start/
