@@ -157,5 +157,5 @@ npm run bot.start
 I'm recommending to use the pm2 process management tool to automate bot start/restart process.
 
 Read more:
-https://discord.js.org/docs/packages/discord.js/main
-https://pm2.keymetrics.io/docs/usage/quick-start/
+- https://discord.js.org/docs/packages/discord.js/main
+- https://pm2.keymetrics.io/docs/usage/quick-start/
